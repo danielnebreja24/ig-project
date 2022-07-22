@@ -1,0 +1,40 @@
+.mainDiv {
+  overflow: hidden;
+  width: 85%;
+  height: 90%;
+  position: relative;
+}
+
+.innerDiv {
+  width: 100%;
+  overflow: auto;
+  position: absolute;
+  height: 100%;
+}
+
+.innerDiv::-webkit-scrollbar {
+  display: none;
+}
+
+.chatDiv {
+  height: 95%;
+  width: 97%;
+  position: relative;
+  overflow: hidden;
+
+  /* background-color: red; */
+}
+
+.innerChatDiv {
+  height: 100%;
+  width: 100%;
+  /* background: orange; */
+  overflow: auto;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.innerChatDiv::-webkit-scrollbar {
+  display: none;
+}
